@@ -1,0 +1,75 @@
+[2023-09-04 16:13:09,531]187 werkzeug-WARNING - * Debugger is active!
+[2023-09-04 16:13:09,539]187 werkzeug-INFO - * Debugger PIN: 891-991-580
+[2023-09-04 16:13:41,456]187 werkzeug-INFO -127.0.0.1 - - [04/Sep/2023 16:13:41] "GET / HTTP/1.1" 200 -
+[2023-09-04 16:13:47,331]52 root-INFO -Entered into the Training pipeline initiate
+[2023-09-04 16:13:47,332]66 root-INFO -!!! Entered into The Data Ingestion file 
+[2023-09-04 16:13:47,332]52 root-INFO -Entered into the file save of Data Ingestion
+[2023-09-04 16:13:47,332]38 root-INFO -Entered into The Dataframe of Data Ingestion 
+[2023-09-04 16:13:47,333]26 root-INFO -Entered into the data Ingestion of Data Ingestion
+[2023-09-04 16:13:48,371]30 root-INFO -Exited from the DataIngestion Colllection
+[2023-09-04 16:13:49,300]43 root-INFO -Exited from the Data Frame of Data Ingestion
+[2023-09-04 16:13:49,303]55 root-INFO -Successfully make the artifact folder
+[2023-09-04 16:13:49,337]58 root-INFO -Successfully make the csv file and save the artifacts 
+[2023-09-04 16:13:49,338]93 root-INFO -Entered into the Data Transfomration Initaite 
+[2023-09-04 16:13:49,338]28 root-INFO -Entered into the data read 
+[2023-09-04 16:13:49,373]30 root-INFO -exited from data read 
+[2023-09-04 16:13:49,373]39 root-INFO -Entered into the split data of Data Tranformation
+[2023-09-04 16:13:49,374]42 root-INFO -Successfully split the data 
+[2023-09-04 16:13:49,374]53 root-INFO -Entered into the train-test method of Data Transformation
+[2023-09-04 16:13:49,407]68 root-INFO -Train and Test files are saved into the artifact folder
+[2023-09-04 16:13:49,407]69 root-INFO -Exited from the train-test method
+[2023-09-04 16:13:49,407]78 root-INFO -Entered into the Standard of Data Transformation
+[2023-09-04 16:13:49,407]19 root-INFO -Entered into save object of MainUtil 
+[2023-09-04 16:13:49,409]22 root-INFO -Model pickle is save successfully
+[2023-09-04 16:13:49,409]81 root-INFO -Successfully save the preprocessor 
+[2023-09-04 16:13:49,425]84 root-INFO -Exited from the Standard Method after Scaling train and test 
+[2023-09-04 16:13:49,425]98 root-INFO -Successfully run Data Transfomation file 1
+[2023-09-04 16:13:49,426]89 root-INFO -ENtered into the model initae part 
+[2023-09-04 16:13:49,426]76 root-INFO -Entered into the loaded model 
+[2023-09-04 16:13:49,426]51 root-INFO -Entered into the model train of the model train
+[2023-09-04 16:13:49,446]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:49,449]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:49,450]59 root-INFO -Model LinearRegression evaluation metric 1: 96.74487769467729
+[2023-09-04 16:13:49,450]60 root-INFO -Model LinearRegression evaluation metric 2: 0.6747052282330583
+[2023-09-04 16:13:51,979]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:51,982]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:51,983]59 root-INFO -Model RandomForest evaluation metric 1: 28.15802372674352
+[2023-09-04 16:13:51,983]60 root-INFO -Model RandomForest evaluation metric 2: 0.9053215206855018
+[2023-09-04 16:13:51,990]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:51,993]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:51,993]59 root-INFO -Model Lasso evaluation metric 1: 121.11224090951839
+[2023-09-04 16:13:51,993]60 root-INFO -Model Lasso evaluation metric 2: 0.5927724577917142
+[2023-09-04 16:13:52,008]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:52,011]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:52,011]59 root-INFO -Model Ridge evaluation metric 1: 96.88454146278643
+[2023-09-04 16:13:52,011]60 root-INFO -Model Ridge evaluation metric 2: 0.674235623075103
+[2023-09-04 16:13:52,014]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:52,015]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:52,016]59 root-INFO -Model ElasticNet evaluation metric 1: 145.07596046503966
+[2023-09-04 16:13:52,016]60 root-INFO -Model ElasticNet evaluation metric 2: 0.5121968979351827
+[2023-09-04 16:13:52,039]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:52,044]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:52,044]59 root-INFO -Model DecisionTreeRegressor evaluation metric 1: 52.67940979032613
+[2023-09-04 16:13:52,044]60 root-INFO -Model DecisionTreeRegressor evaluation metric 2: 0.8228708641439096
+[2023-09-04 16:13:52,055]36 root-INFO -Entered into the model evaluation
+[2023-09-04 16:13:52,058]39 root-INFO -Exited from the model evaluation 
+[2023-09-04 16:13:52,059]59 root-INFO -Model  KNeighborsRegressor evaluation metric 1: 83.08156921480764
+[2023-09-04 16:13:52,059]60 root-INFO -Model  KNeighborsRegressor evaluation metric 2: 0.7206467077144577
+[2023-09-04 16:13:52,059]62 root-INFO -After the loop
+[2023-09-04 16:13:52,060]37 root-INFO -Entered into the Hypertuning of Training 
+[2023-09-04 16:15:19,371]19 root-INFO -Entered into save object of MainUtil 
+[2023-09-04 16:15:19,455]22 root-INFO -Model pickle is save successfully
+[2023-09-04 16:15:19,455]44 root-INFO -Successfully Hypertunned and saved the model to the hard disk as a pickle file. The best model is RandomForest and score is  0.8989347319013232.
+[2023-09-04 16:15:19,457]57 root-INFO -Successfully Training 
+[2023-09-04 16:15:19,479]187 werkzeug-INFO -127.0.0.1 - - [04/Sep/2023 16:15:19] "GET /train HTTP/1.1" 200 -
+[2023-09-04 16:16:39,389]57 root-INFO -Enter into run pipeline
+[2023-09-04 16:16:39,389]25 root-INFO -Enter into the Load Model of Prediction file 
+[2023-09-04 16:16:39,390]30 root-INFO -Entered into the load object of MainUtils 
+[2023-09-04 16:16:39,602]33 root-INFO -Exited from the load object suuccessfully 
+[2023-09-04 16:16:39,603]30 root-INFO -Entered into the load object of MainUtils 
+[2023-09-04 16:16:39,617]33 root-INFO -Exited from the load object suuccessfully 
+[2023-09-04 16:16:39,617]28 root-INFO -Successfully load the model 
+[2023-09-04 16:16:39,617]37 root-INFO -Enetred into the Prediction function of the Prediction file 
+[2023-09-04 16:16:39,675]49 root-INFO -Prediction is complete and prediction is [45.40977564] 
+[2023-09-04 16:16:39,677]60 root-INFO -Congrats All are fine 
+[2023-09-04 16:16:39,692]187 werkzeug-INFO -127.0.0.1 - - [04/Sep/2023 16:16:39] "POST /prediction HTTP/1.1" 200 -

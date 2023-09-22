@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cement Strength Prediction</title>
+</head>
+<style>
+     body{
+          font-size: larger;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          background-color: whitesmoke;
+
+     }
+  .field{
+     border: 3px black;
+     border-radius: 5px;
+  }
+  input{
+     margin-top: 4px;
+     width:400px;
+     height: 50px;
+     border-radius: 5px;
+  }
+  #btn{
+     background-color: aqua;
+  }
+
+</style>
+
+<body>
+     <fieldset class="field">
+          <form action="/prediction" method="post">
+               <label for="Cement">Cement (component 1)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Cement" id="Cement" >
+          <br>
+          <br>
+          <label for="Blast_Furnace_Slag">Blast Furnace Slag (component 2)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Blast_Furnace_Slag" id="Cement">
+          <br>
+          <br>
+          <label for="Fly_Ash">Fly Ash (component 3)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Fly_Ash" id="Cement">
+          <br>
+          <br>
+          <label for="Water">Water  (component 4)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Water" id="Cement">
+          <br>
+          <br>
+          <label for="Superplasticizer">Superplasticizer (component 5)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Superplasticizer" id="Cement">
+          <br>
+          <br>
+          <label for="Coarse_Aggregate">Coarse Aggregate  (component 6)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Coarse_Aggregate" id="Cement">
+          <br>
+          <br>
+          <label for="Fine_Aggregate">Fine Aggregate (component 7)(kg in a m^3 mixture)</label><br>
+          <input type="text" name="Fine_Aggregate" id="Cement">
+          <br>
+          <br>
+          <label for="Age">Age (day)</label><br>
+          <input type="text" name="Age" id="Cement">
+          <br>
+          <br>
+          <input type="submit" id="btn">
+          </form>
+
+          <h2>Concrete compressive strength(MPa, megapascals):{{result}}</h2>
+     </fieldset>
+     
+     
+</body>
+</html>
